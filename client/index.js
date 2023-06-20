@@ -21,7 +21,6 @@ app.get('/',(req,res)=>{
   res.send("Hello there i am index.js of server side")
 })
 
-//const CONNECTION_URL = 'mongodb+srv://saideepsaideep:saideep1@cluster0.01rswqc.mongodb.net/?retryWrites=true&w=majority'
 const PORT = process.env.PORT || 8080
 
 mongoose.connect(process.env.CONNECTION_URL, { useNewUrlParser: true, useUnifiedTopology: true })
