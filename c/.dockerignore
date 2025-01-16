@@ -1,0 +1,21 @@
+# Python cache files
+__pycache__
+*.pyc
+
+# Virtual environment
+venv
+
+# Logs and temporary files
+*.log
+*.tmp
+
+# Git repository files
+.git
+.gitignore
+
+# Ignore the React app's node_modules and build directories if present
+react-app/node_modules
+react-app/dist
+
+# Environment files (optional, if you're storing secrets here)
+.env
